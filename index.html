@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Artist | Video Editor & Designer</title>
+    <meta name="description" content="Portfolio of a creative Video Editor and Photoshop Artist. High-end visual storytelling.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <a href="#" class="logo">KAIZEN<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="btn-primary">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title reveal-text">Forging <br><span class="gradient-text">Reality</span> From <br>Pixels</h1>
+            <p class="hero-date reveal-text-delay">High-Impact Video Editing & Creative Retouching</p>
+            <div class="hero-actions reveal-fade">
+                <a href="#portfolio" class="btn-primary">View Portfolio <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        
+        <!-- Decoration Elements -->
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </header>
+
+    <!-- Stats / Trust Banner -->
+    <div class="stats-banner glass">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">video tutorial</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">40+</span>
+                <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">70%</span>
+                <span class="stat-label">Editing Skills</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop" 
+                     alt="Cyberpunk Artist Portrait" class="about-img glow-border">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">The <span class="accent">Editor SABER</span>.</h2>
+                <p class="section-desc">I don't just cut footage; I craft narratives. With a keen eye for rhythm and a mastery of Photoshop, I turn raw inputs into visual masterpieces. Whether it's a high-energy trailer, a cinematic vlog, or a surreal photo composition, I bring a unique edge to every frame.</p>
+                <div class="skills-tags">
+                    <span>Premiere Pro</span>
+                    <span>After Effects</span>
+                    <span>Photoshop</span>
+                    <span>DaVinci Resolve</span>
+                    <span>Sound Design</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Selected <span class="gradient-text">Works</span>.</h2>
+                <div class="filter-btns">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="video">Video</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 (Video) -->
+                <div class="project-card" data-category="video" data-video-src="https://www.youtube.com/embed/sI9pQ6Y37_Q">
+                    <div class="project-media">
+                        <img src="https://cdna.artstation.com/p/assets/images/images/060/602/184/original/yiou-gao-lighting-beam.gif?1678915376"onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop'"
+                             alt="Editing after Effects" class="project-img">
+                        <div class="grav effect">
+                            <i class="fa-solid fa-play"></i>
+                            <button class="btn-primary btn-sm watch-btn">Watch Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Editing after Effects</h3>
+                        <p>After Effects
+                            
+                        </p>
+                        <p>Editing / VFX / Sound</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 (Design) -->
+                <div class="project-card" data-category="design" data-video-src="https://www.youtube.com/embed/ENCMGabrOcY">
+                    <div class="project-media">
+                        <img src="https://cdn.dribbble.com/userupload/22396484/file/original-2083e6773b43f74971ffcf91310b2604.gif"onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop'" 
+                             alt="Neon Poster Art" class="project-img">
+                        <div class="overlay">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>glow effect</h3>
+                        <p>Photoshop / Manipulation</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 (Video) -->
+                <div class="project-card" data-category="video" data-video-src="https://www.youtube.com/embed/OiTiKOy59o4">
+                    <div class="project-media">
+                        <img src="https://cdn.prod.website-files.com/650b672b6d49343e2368aa57/6553869d02aba8ab0306015c_6179a52f40a1d0e78c38565d_ezgif-1-4eff79475a88.gif"onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop'" 
+                             alt="Cinematic Travel Vlog" class="project-img">
+                        <div class="overlay">
+                            <i class="fa-solid fa-play"></i>
+                            <button class="btn-primary btn-sm watch-btn">Watch Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Editing gravity</h3>
+                        <p>Pacing / Color Grading</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 (Design) -->
+                <div class="project-card" data-category="design" data-video-src="https://www.youtube.com/embed/0n-W5aZ08L0">
+                    <div class="project-media">
+                        <img src="https://cdn.shopify.com/s/files/1/0403/5801/9230/files/how-to-create-the-perfect-film-look-premiere-pro-editing-tutorial.gif?v=1629770510"onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop'" 
+                             alt="Abstract Album Art" class="project-img">
+                        <div class="overlay">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>tv cover art</h3>
+                        <p>Composition / adobe premiere pro / cup cat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title text-center">My <span class="accent">Expertise</span>.</h2>
+            <div class="services-grid">
+                <div class="service-card glass">
+                    <i class="fa-solid fa-film service-icon"></i>
+                    <h3>Video Editing</h3>
+                    <p>Dynamic cuts, seamless transitions, and storytelling that keeps the audience hooked considering retention metrics.</p>
+                </div>
+                <div class="service-card glass">
+                    <i class="fa-solid fa-wand-magic-sparkles service-icon"></i>
+                    <h3>Visual Effects</h3>
+                    <p>Subtle enhancements to full-blown compositing. Cleanups, green screen, and motion graphics.</p>
+                </div>
+                <div class="service-card glass">
+                    <i class="fa-solid fa-image service-icon"></i>
+                    <h3>Photo Manipulation</h3>
+                    <p>High-end retouching, color grading, and surreal composites that defy reality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2026 Kaizen Visuals. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="video-container">
+                <iframe id="video-frame" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
